@@ -162,7 +162,11 @@ nav a.active {
     background-color: var(--color-primary-dark);
     font-weight: bold;
 }
-
+nav a:focus {
+    outline: 3px solid white;
+    outline-offset: 2px;
+    background-color: var(--color-primary-dark);
+}
 /* Skip link za pristupačnost */
 .skip-link {
     position: absolute;
