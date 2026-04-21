@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Royal Enfield Reviews</title>
+    <meta name="description" content="Detaljne recenzije Royal Enfield motora">
+    <meta property="og:title" content="Royal Enfield Reviews">
+    <meta property="og:description" content="Detaljne recenzije Royal Enfield motora - Hunter, Meteor, Super Meteor, Interceptor i Himalayan">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Preskoči na glavni sadržaj</a>
+    
+    <header id="header">
+    <h1>Royal Enfield Reviews</h1>
+    
+    <a href="#header" class="hamburger" id="hamburger-close">☰</a>
+    <a href="#menu" class="hamburger" id="hamburger-open">☰</a>
+    
+    <nav class="nav-menu" id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="starter-motori.html">Starter motori</a></li>
+            <li><a href="sport-touring.html">Sport Touring</a></li>
+            <li><a href="adventure.html">Adventure</a></li>
+            <li><a href="kontakt.html"  class="active">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main id="main-content">
+        <h1>Kontaktirajte nas</h1>
+        <p>Imate li pitanje o Royal Enfieldu? Slobodno nam napišite!</p>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Ime i prezime:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefon:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Predmet:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">-- Odaberite --</option>
+                    <option value="pitanje">Pitanje o motoru</option>
+                    <option value="review">Prijedlog za review</option>
+                    <option value="suradnja">Suradnja</option>
+                    <option value="ostalo">Ostalo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Poruka:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Pošalji</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Royal Enfield Reviews. Sve slike i znakovi su vlasništvo Royal Enfielda.</p>
+    </footer>
+</body>
+</html>
